@@ -1,0 +1,254 @@
+@charset "utf-8";
+.company {
+	float: right;
+	margin-right: 80pt;
+	padding-top: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-bottom: 0pt;
+	background-color: #000000;
+	margin-top: 50pt;
+	margin-left: 80px;
+	text-align: center;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+header {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 30pt;
+	text-align: left;
+	height: 200pt;
+}
+.logo {
+	padding-top: 0pt;
+	padding-left: 0pt;
+	padding-bottom: 0pt;
+	padding-right: 0pt;
+	margin-left: 50pt;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+#menu {
+	background-color: #000000;
+	color: #FFFFFF;
+	float: left;
+	width: 13%;
+	line-height: 80pt;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 16pt;
+	padding-left: 50px;
+	height: 820pt;
+	text-align: center;
+}
+#home:hover{
+	color: #FF0000;	
+}
+#products:hover{
+	color: #FF0000;	
+}
+#jobs:hover{
+	color: #FF0000;	
+}
+#about_us:hover{
+	color: #FF0000;	
+}
+#contact_us:hover{
+	color: #FF0000;	
+}
+#site_map:hover{
+	color: #FF0000;	
+}
+#email:hover{
+	color: #FF0000;
+}
+#email{
+	font-size: 12pt;
+}
+
+#content {
+	float: right;
+	background-color: #FF6600;
+	width: 80%;
+	margin-top: 10pt;
+	height: 800pt;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-align: center;
+	border-width: thick;
+	border-color: #000000;
+}
+#film   {
+	border: 20pt solid #000000;
+}
+#movie  {
+	border: 20pt solid #000000;
+	width: 800px;
+	margin-top: 50pt;
+}
+#skip {
+	color: #FF0004;
+	font-size: medium;
+	width: 5%;
+	padding-left: 25pt;
+	padding-top: 10pt;
+}
+#disclaimer {
+	text-align: center;
+}
+#content #description {
+	padding-top: 20pt;
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+}
+#content #sitemap {
+	width: 400pt;
+	height: 500pt;
+	border: thick solid #000000;
+	background-color: #000000;
+	padding-left: 0px;
+	margin-left: 30%;
+	text-align: left;
+	line-height: 50pt;
+	font-size: x-large;
+
+
+}
+#sitemap ul #sublist {
+	margin-left: 20px;
+}
+#content #description .services {
+	text-align: left;
+}
+#content #contact {
+	font-size: x-large;
+	line-height: 60pt;
+}
+#code   {
+	border: 20pt solid #000000;
+	max-width: 700px;
+	max-height: 500px;
+}
+#hard {
+	width: 250pt;
+	height: 250pt;
+	float: left;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-left: -50px;
+}
+#soft {
+	width: 250pt;
+	height: 250pt;
+	float: right;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-right: -135px;
+}
+#ramchip {
+	max-width: 250pt;
+	max-height: 200pt;
+}
+
+#description #buttons {
+	margin-top: 100pt;
+
+
+}
+#disc   {
+	width: 250pt;
+	height: 175pt;
+	padding-top: 30pt;
+}
+#prod1 {
+	width: 250pt;
+	height: 250pt;
+	float: left;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin-top: 30px;
+	margin-left: -50px;
+}
+#prod2 {
+	width: 250pt;
+	height: 250pt;
+	color: #FFFFFF;
+	background-color: #000000;
+	float: right;
+	margin-top: 30px;
+	margin-right: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:801px) and (max-width:1280px){
+#content #movie {
+
+
+
+
+}
+#content {
+	margin-left: -25px;
+}
+
+
+}
+
+@media (min-width:1281px){
+#content #movie {
+	margin-left: 20%;
+
+}
+
+}
+
+@media (max-width:800px){
+#content {
+	padding-left: 0px;
+
+
+}
+#content #movie {
+	margin-left: 10%;
+
+
+
+
+}
+
+
+
+
+}
+.services {
+}
+#content #description .jobsneeded {
+	text-align: left;
+}
+
+.jobs {
+}
+a:link {
+	color: #F0F0F5;
+}
+a:visited {
+	color: #B0B0B5;
+}
+a:hover {
+	color: #FF0000;
+}
